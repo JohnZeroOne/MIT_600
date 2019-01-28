@@ -1,0 +1,11 @@
+Valid word
+in the word list AND only letters from current hand
+returns true
+else false
+doesnt mutate hand or word list
+word: string
+hand: dict (string -> int)
+word_list: list (string)
+
+check word is in word list
+check letters of word are in hand

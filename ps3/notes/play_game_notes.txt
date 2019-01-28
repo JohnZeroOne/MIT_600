@@ -1,0 +1,7 @@
+Playing a game:
+
+raw input of n r or e
+	n = new random hand
+	r = last hand again
+	e = exit game
+loop to start after hand finishes

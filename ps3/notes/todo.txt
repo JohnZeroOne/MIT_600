@@ -1,0 +1,3 @@
+fix "None" bug
+implement last hand
+improve algorithm for AI searching (speed, score)

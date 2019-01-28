@@ -1,0 +1,23 @@
+Word scores rules
+the function should accept lower case letters as input (word)
+and return an integer as the score for the word
+
+always either lowercase letters or empty string ""
+use dictionary at the top of file to get scores
+
+dont assume n = 7
+
+flow
+	
+	take input of word and n
+		(word is user input based on n values
+		n is the number of letters a user can choose from)
+	calculate the score of the word
+		score each letter by dict lookup
+			split word into individual letters
+				for each letter lookup letter score in dict and add to score var
+		sum the score for each letter
+		multiply by length of word
+		if the length of word is n then add 50 points to the score
+	return the total score which is >= 0
+	

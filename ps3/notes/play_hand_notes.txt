@@ -1,0 +1,14 @@
+num letters in hand varies, global hand_size
+
+x show hand
+x take raw input of letters from user or .
+x if user enters . end turn
+x invalid word is rejected, ask to enter other word
+
+x valid word 
+	x uses letters from hand,
+	x score displays, 
+	x remaining letters display, 
+	x user asked for next word input
+x hand finishes when all letters used
+	x sum score is shown

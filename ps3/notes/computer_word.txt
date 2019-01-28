@@ -1,0 +1,6 @@
+Problem 6A: Computer Word Choose
+
+best case:
+call get_perms(hand, len(hand)) within a loop checking the return is in the word_list
+if it's not then call get_perms(hand, len(hand -1)) until you find the largest word within the list
+this search is very inefficient, need to reduce the search space

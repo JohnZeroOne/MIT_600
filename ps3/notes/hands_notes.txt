@@ -1,0 +1,13 @@
+rules
+word: string
+hand: dictionary (string -> int)
+returns: dictionary (string -> int)
+
+flow
+
+take input of player's hand and word (this is already a parameter in the function)
+
+process hand dictionary removing word letters
+	del? pop?
+
+return player's hand

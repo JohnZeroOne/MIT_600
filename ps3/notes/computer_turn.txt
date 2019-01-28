@@ -1,0 +1,9 @@
+Problem 6B. Computer’s turn to play a hand
+comp_play_hand
+
+loop until it returns None
+	hand displays
+		call computer_word with that hand
+			do we need to check validity when the computer generates the word?
+				score for valid word
+show sum score for hand
