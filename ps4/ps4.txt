@@ -1,0 +1,36 @@
+Pseudocode
+
+
+Problem 2
+multiple solutions are possible
+
+brute force
+take the input of the cyphertext
+apply a shift+1 in a loop until you find the English text
+
+stats
+take the input
+analyse the letter/character frequency by making a total number of times each character is used in the text
+check the frequency against an English letter frequency analysis
+apply a shift based on the most freq. used letter
+
+cross reference
+take input of cyphertext
+decode text with each possible shift
+strip out words by deliminating the spaces
+check if these words are in a complete word list
+count the number of words that match the list
+do this for each shift and at the end
+the shift with the most words that match should be the correct answer
+
+Problem 2a:  =========================  
+1. set the maximum number of real words found to 0  
+2. set the best shift to 0  
+3. for each possible shift from 0 to 27:  
+4. shift the entire text by this shift.  5. split the text up into a list of the individual words.  6. count the number of valid words in this list.     7. if this number of valid words is more than the maximum number of real words, then  8. record the number of valid words.  
+9. set the best shift to the current shift  10. increment the current possible shift by 1.  Repeat the loop starting at 3.  11. return the best shift. 
+
+
+
+
+Problem 4

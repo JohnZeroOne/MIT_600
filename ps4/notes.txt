@@ -1,0 +1,9 @@
+p1)
+shift = -27 to 27
+
+x create a blank dictionary
+insert 1 key, space through a-z 
+insert 1 value, shift of space through a-z, must account for negative shift
+repeat until end of alphabet
+repeat for upper case letters (for loop, range)
+x return dictionary

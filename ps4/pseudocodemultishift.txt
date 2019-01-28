@@ -1,0 +1,9 @@
+take input of text and tuples
+shift text from first value in list with second value as shift
+store the text from this up to the next shift in a variable
+shift text from first value in list with second value as shift
+add the text from this up to the next shift in the same variable
+shift text from first value in list with second value as shift
+add the text from this up to the next shift in the same variable
+
+return the whole shifted text
